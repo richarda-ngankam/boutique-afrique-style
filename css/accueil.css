@@ -1,0 +1,34 @@
+.bandeau {
+  background-color: var(--couleur-secondaire);
+  color: #ffffff;
+  text-align: center;
+  padding: 4rem 1.5rem;
+  border-radius: 12px;
+}
+
+.bandeau h1 {
+  color: #ffffff;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.bandeau p {
+  max-width: 600px;
+  margin: 0 auto 2rem;
+  font-size: 1.2rem;
+}
+
+.bouton {
+  display: inline-block;
+  background-color: var(--couleur-accent);
+  color: var(--couleur-texte);
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.8rem 2rem;
+  border-radius: 8px;
+  transition: transform 0.2s;
+}
+
+.bouton:hover {
+  transform: scale(1.05);
+}
