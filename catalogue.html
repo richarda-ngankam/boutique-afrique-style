@@ -1,26 +1,78 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initialscale=1.0">
- <title>Boutique Afrique Style</title>
- <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catalogue - Boutique Afrique Style</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/catalogue.css">
 </head>
 <body>
- <header>
- <nav>
- <ul>
- <li><a href="index.html">Accueil</a></li>
- <li><a href="catalogue.html">Catalogue</a></li>
- <li><a href="contact.html">Contact</a></li>
- </ul>
- </nav>
- </header>
- <main>
- <h1>Bienvenue chez Afrique Style</h1>
- </main>
- <footer>
- <p>&copy; 2026 Boutique Afrique Style</p>
- </footer>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="catalogue.html">Catalogue</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="catalogue-entete">
+      <h1>Notre catalogue</h1>
+      <p class="panier">Panier : <span id="compteur-panier">0</span> article(s)</p>
+    </div>
+
+    <section class="grille-produits">
+      <article class="produit">
+        <div class="produit-image" style="--couleur: #c8702a;">Boubou</div>
+        <h2 class="produit-nom">Boubou brodé</h2>
+        <p class="produit-prix">25 000 FCFA</p>
+        <button class="btn-panier" type="button">Ajouter au panier</button>
+      </article>
+
+      <article class="produit">
+        <div class="produit-image" style="--couleur: #2f6b4f;">Robe</div>
+        <h2 class="produit-nom">Robe en pagne</h2>
+        <p class="produit-prix">18 000 FCFA</p>
+        <button class="btn-panier" type="button">Ajouter au panier</button>
+      </article>
+
+      <article class="produit">
+        <div class="produit-image" style="--couleur: #2b3a67;">Chemise</div>
+        <h2 class="produit-nom">Chemise wax</h2>
+        <p class="produit-prix">12 000 FCFA</p>
+        <button class="btn-panier" type="button">Ajouter au panier</button>
+      </article>
+
+      <article class="produit">
+        <div class="produit-image" style="--couleur: #a63d40;">Sac</div>
+        <h2 class="produit-nom">Sac en tissu</h2>
+        <p class="produit-prix">8 000 FCFA</p>
+        <button class="btn-panier" type="button">Ajouter au panier</button>
+      </article>
+
+      <article class="produit">
+        <div class="produit-image" style="--couleur: #8a6d1f;">Bijou</div>
+        <h2 class="produit-nom">Collier de perles</h2>
+        <p class="produit-prix">6 500 FCFA</p>
+        <button class="btn-panier" type="button">Ajouter au panier</button>
+      </article>
+
+      <article class="produit">
+        <div class="produit-image" style="--couleur: #4a4a4a;">Bonnet</div>
+        <h2 class="produit-nom">Chapeau traditionnel</h2>
+        <p class="produit-prix">5 000 FCFA</p>
+        <button class="btn-panier" type="button">Ajouter au panier</button>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Boutique Afrique Style</p>
+  </footer>
+
+  <script src="js/catalogue.js"></script>
 </body>
 </html>
