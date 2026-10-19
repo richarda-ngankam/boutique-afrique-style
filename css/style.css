@@ -1,0 +1,30 @@
+:root {
+  --couleur-principale: #c8501e;
+  --couleur-secondaire: #2e7d32;
+  --couleur-accent: #f4b400;
+  --couleur-fond: #fff8ef;
+  --couleur-texte: #2b2118;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: var(--couleur-fond);
+  color: var(--couleur-texte);
+  line-height: 1.6;
+}
+
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+h1, h2, h3 {
+  color: var(--couleur-principale);
+}
