@@ -1,26 +1,46 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initialscale=1.0">
- <title>Boutique Afrique Style</title>
- <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boutique Afrique Style</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
 </head>
+
 <body>
- <header>
- <nav>
- <ul>
- <li><a href="index.html">Accueil</a></li>
- <li><a href="catalogue.html">Catalogue</a></li>
- <li><a href="contact.html">Contact</a></li>
- </ul>
- </nav>
- </header>
- <main>
- <h1>Bienvenue chez Afrique Style</h1>
- </main>
- <footer>
- <p>&copy; 2026 Boutique Afrique Style</p>
- </footer>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="catalogue.html">Catalogue</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Bienvenue chez Afrique Style</h1>
+        <form id="formContact" method="post">
+            <section class="fieldSection">
+                <label for="nom">Nom : </label>
+                <input type="text" name="nom" id="nom">
+            </section>
+            <section class="fieldSection">
+                <label for="email">Email :</label>
+                <input type="email" name="email" id="email">
+            </section>
+            <section class="fieldSection">
+                <label for="message">Message :</label>
+                <textarea name="message" id="message"></textarea>
+            </section>
+            <button type="submit">Envoyer</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2026 Boutique Afrique Style</p>
+    </footer>
+    <script type="text/javascript" src="js/contact.js"></script>
 </body>
+
 </html>
