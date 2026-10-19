@@ -32,3 +32,22 @@
 .bouton:hover {
   transform: scale(1.05);
 }
+
+.avantages {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.avantages-grille {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.avantage {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
