@@ -1,0 +1,76 @@
+
+.catalogue-entete {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 20px;
+}
+
+.panier {
+  font-weight: bold;
+}
+
+.grille-produits {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Cette règle définit les colonnes d'une grille CSS (display: grid). Elle crée 3 colonnes de largeur égale. */
+  gap: 20px;
+  padding: 0 20px 30px;
+}
+
+.produit {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 12px;
+  text-align: center;
+}
+
+.produit-image {
+  height: 160px;
+  border-radius: 6px;
+  background-color: var(--couleur, #999);
+  color: #fff;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.produit-nom {
+  font-size: 1.1rem;
+  margin: 12px 0 4px;
+}
+
+.produit-prix {
+  margin: 0 0 12px;
+  font-weight: bold;
+}
+
+.btn-panier {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  background-color: #2f6b4f;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn-panier:hover,
+.btn-panier:focus-visible {
+  background-color: #1f4d38;
+}
+
+/* Tablette : 2 colonnes */
+@media (max-width: 800px) {
+  .grille-produits {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile : 1 colonne */
+@media (max-width: 500px) {
+  .grille-produits {
+    grid-template-columns: 1fr;
+  }
+}
