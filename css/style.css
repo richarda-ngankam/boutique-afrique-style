@@ -28,3 +28,37 @@ main {
 h1, h2, h3 {
   color: var(--couleur-principale);
 }
+
+header {
+  background-color: var(--couleur-principale);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  list-style: none;
+  padding: 1rem;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  transition: background-color 0.2s;
+}
+
+nav a:hover {
+  background-color: var(--couleur-accent);
+  color: var(--couleur-texte);
+}
+
+footer {
+  background-color: var(--couleur-texte);
+  color: #ffffff;
+  text-align: center;
+  padding: 1.5rem 1rem;
+  margin-top: 2rem;
+}
