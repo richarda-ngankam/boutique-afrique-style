@@ -14,12 +14,13 @@
 
 .grille-produits {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Cette règle définit les colonnes d'une grille CSS (display: grid). Elle crée 3 colonnes de largeur égale. */
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 20px;
   padding: 0 20px 30px;
 }
 
 .produit {
+  min-width: 0;
   border: 1px solid #ddd;
   border-radius: 8px;
   padding: 12px;
@@ -35,6 +36,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
+}
+
+.produit-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .produit-nom {
