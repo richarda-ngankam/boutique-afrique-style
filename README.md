@@ -18,7 +18,7 @@ Site vitrine d'une boutique en ligne de vêtements africains, réalisé en équi
 
 ## Lien du site
 
-[à compléter après la publication sur GitHub Pages]
+(https://richarda-ngankam.github.io/boutique-afrique-style/)
 
 ## Retour d'expérience
 
