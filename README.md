@@ -7,8 +7,8 @@ Site vitrine d'une boutique en ligne de vêtements africains, réalisé en équi
 | Membre | Rôle |
 |--------|------|
 | Richarda | Mainteneur, page d'accueil, design global |
-| [Prénom B] | Page catalogue |
-| [Prénom C] | Page contact |
+| Tayouo Yan  | Page catalogue |
+| Zuteu henry | Page contact |
 
 ## Pages du site
 
