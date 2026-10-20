@@ -20,6 +20,21 @@ Site vitrine d'une boutique en ligne de vêtements africains, réalisé en équi
 
 (https://richarda-ngankam.github.io/boutique-afrique-style/)
 
+
 ## Retour d'expérience
 
-[à compléter à la fin du projet]
+### Ce qui a bien fonctionné
+- Une bonne entente et un vrai esprit d'équipe.
+- Une collaboration efficace entre les membres.
+- L'apprentissage de nouvelles notions (branches, Pull Requests, revue de code, résolution de conflit, GitHub Pages).
+
+### Problèmes rencontrés
+- **Formulaire de contact** : le traitement côté serveur (PHP) n'est pas en place. Quand on envoie le formulaire, un message d'erreur s'affiche. Seule la validation JavaScript fonctionne. GitHub Pages ne peut héberger que des sites statiques, il ne peut donc pas exécuter de PHP.
+- **Oublis dans les commits** : lors de certaines PR, des fichiers manquaient parce qu'on faisait `git add index.html` au lieu de `git add .`, et les autres fichiers modifiés n'étaient pas pris en compte.
+- **Notions nouvelles** : le merge était compliqué au départ, car c'était un concept nouveau pour nous.
+- **Attente des validations** : il fallait patienter qu'un autre membre approuve la PR avant de pouvoir fusionner.
+
+### Ce que nous ferions différemment
+- Mettre une règle de répartition pour que les tâches soient mieux partagées et que ce ne soit pas seulement le membre A qui en fasse beaucoup.
+- Travailler avec des forks, comme sur un projet open source.
+- Lancer `git status` avant chaque commit pour vérifier que tous les fichiers voulus sont bien préparés.
