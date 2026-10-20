@@ -35,6 +35,6 @@ Site vitrine d'une boutique en ligne de vêtements africains, réalisé en équi
 - **Attente des validations** : il fallait patienter qu'un autre membre approuve la PR avant de pouvoir fusionner.
 
 ### Ce que nous ferions différemment
-- Mettre une règle de répartition pour que les tâches soient mieux partagées et que ce ne soit pas seulement le membre A qui en fasse beaucoup.
+- Répartir les rôles et les tâches plus équitablement dès le départ : dans une équipe de 3, un membre cumulait deux rôles (accueil, design et README). La prochaine fois, nous partagerons mieux ces tâches.
 - Travailler avec des forks, comme sur un projet open source.
 - Lancer `git status` avant chaque commit pour vérifier que tous les fichiers voulus sont bien préparés.
